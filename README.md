@@ -1,8 +1,8 @@
 # KOSPI-TimeSeries-Forecasting with Intervention Analysis
 
 ## Overview
-KOSPI 지수의 단기 추세 예측을 위해 전통적인 시계열 모형(ARIMAX)과 딥러닝 기반 LSTM 모델을 비교 분석한 프로젝트입니다.
-본 프로젝트는 COVID-19, 금융시장 충격 등 외부 이벤트의 영향을 반영하기 위해 Pulse Intervention과 Step Intervention을 도입하였으며, 개입효과를 반영한 ARIMAX 모델과 LSTM 모델의 예측 성능을 비교하였습니다.
+KOSPI 지수의 단기 추세 예측을 위해 전통적인 시계열 모형(ARIMAX)과 딥러닝 기반 LSTM 모델을 비교 분석한 프로젝트이다.
+본 프로젝트는 COVID-19, 금융시장 충격 등 외부 이벤트의 영향을 반영하기 위해 Pulse Intervention과 Step Intervention을 도입하였으며, 개입효과를 반영한 ARIMAX 모델과 LSTM 모델의 예측 성능을 비교하였다.
 
 ## Data
 - Source: Yahoo Finance (^KS11)
@@ -23,4 +23,4 @@ Pulse 변수를 exogenous variables로 포함
 - Train/Test Split 이후 Scaling
 - Look-ahead Bias 방지
 
-LSTM 모델이 ARIMAX 대비 예측 성능에서 크게 우수한 결과를 보였으며, KOSPI의 비선형적 움직임을 효과적으로 포착하였습니다.
+LSTM 모델이 ARIMAX 대비 예측 성능에서 크게 우수한 결과를 보였으며, KOSPI의 비선형적 움직임을 효과적으로 포착하였다.
